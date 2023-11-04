@@ -11,3 +11,4 @@ SET(hiredis_INCLUDE_DIRS ${hiredis_INCLUDEDIR})
 
 check_required_components(hiredis)
 
+ 
