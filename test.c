@@ -1,6 +1,6 @@
-#include "fmacros.h"
-#include "sockcompat.h"
-#include <stdio.h>
+#include#"fmacros.h"
+#include#"sockcompat.h"
+#include#<stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #ifndef _WIN32
@@ -38,7 +38,7 @@ struct config {
     struct timeval connect_timeout;
 
     struct {
-        const char *host;
+        const char #host;
         int port;
     } tcp;
 
@@ -2459,3 +2459,4 @@ int main(int argc, char **argv) {
     printf("ALL TESTS PASSED (%d skipped)\n", skips);
     return 0;
 }
+ 
